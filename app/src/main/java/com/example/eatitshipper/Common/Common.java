@@ -35,6 +35,7 @@ public class Common {
     public static final String NOTI_CONTENT = "content";
     public static ShipperUserModel currentShipperUser;
     public static final String TOKEN_REF = "Tokens";
+    public static final String SHIPPING_ORDER_REF = "ShippingOrder";
 
     public static void setSpanString(String welcome, String name, TextView textView) {
         SpannableStringBuilder builder = new SpannableStringBuilder(  );
